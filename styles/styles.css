@@ -1,0 +1,45 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.paleGoldenrod-bg {
+  background-color: #EEE8AA;
+}
+
+.footer_bg {
+  background-color: rgb(58, 57, 57);
+}
+
+.video-pad{
+  padding-top: 80px;
+  padding-bottom: 50px;
+}
+
+.nav__content {
+  max-width: 1140px;
+}
+
+@media (min-width: 1400px) {
+  .container {
+    max-width: 1140px !important;
+  }
+}
+
+.hero {
+  min-height: 400px;
+}
+
+.accent-btn {
+  background-color: #ff2626 !important;
+  color: #fff !important;
+  font-weight: 300 !important;
+  padding: 15px 20px !important;
+}
+
+.hero img {
+  width: 566px;
+  object-fit: contain;
+}
+
